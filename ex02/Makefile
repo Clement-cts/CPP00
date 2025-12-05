@@ -3,8 +3,7 @@ NAME = ex02
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = Account.cpp Account.hpp test.cpp
-
+SRCS = Account.cpp tests.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)
